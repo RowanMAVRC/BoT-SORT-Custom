@@ -1,0 +1,7 @@
+_BASE_: ../Base-SBS.yml
+
+DATASETS:
+  NAMES: ("FastREID_Prototype_1",)
+  TESTS: ("FastREID_Prototype_1",)
+
+OUTPUT_DIR: logs/FastREID_Prototype_1/sbs_R50

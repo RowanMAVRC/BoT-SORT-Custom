@@ -1,0 +1,11 @@
+_BASE_: ../Base-MGN.yml
+
+MODEL:
+  BACKBONE:
+    WITH_IBN: True
+
+DATASETS:
+  NAMES: ("FastREID_Prototype_1",)
+  TESTS: ("FastREID_Prototype_1",)
+
+OUTPUT_DIR: logs/FastREID_Prototype_1/mgn_R50-ibn

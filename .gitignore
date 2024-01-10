@@ -10,3 +10,6 @@ wandb/
 fast_reid/datasets/MOT17-ReID
 */__pycache__
 *.so
+/envs/*
+/datasets/*
+fast_reid/datasets/*
